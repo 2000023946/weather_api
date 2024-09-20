@@ -190,6 +190,7 @@ class UserProgram:
             else:
                 print(f"Error. Could not get weather data for {city}")
     def start(self):
+        ##weather api
         print("Welcome to the Weather App")
         while True:
             city = self.__get_validated_city()
